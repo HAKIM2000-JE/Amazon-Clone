@@ -1,0 +1,44 @@
+.login_logo {
+  width: 100px;
+  margin: 10px;
+  object-fit: contain;
+}
+.login_container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid lightgrey;
+}
+
+.login {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+h5 {
+  margin-bottom: 5px;
+}
+input {
+  width: 98%;
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+p {
+  margin-top: 15px;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+.sign_in {
+  width: 100%;
+  height: 30px;
+  background-color: orange;
+  border-style: solid;
+  border-width: 1px;
+}

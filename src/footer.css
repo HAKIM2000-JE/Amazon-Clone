@@ -1,0 +1,17 @@
+footer {
+  background-color: darkgrey;
+  text-align: center;
+}
+h5 {
+  color: white;
+  padding: 20px;
+}
+footer a {
+  padding: 10px;
+  width: 60px !important;
+  height: 60px !important;
+}
+.footer a {
+  font-size: 2.5rem;
+  padding: 1.2rem;
+}

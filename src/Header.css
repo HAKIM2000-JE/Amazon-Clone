@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+
+.header__logo {
+  width: 100px;
+  margin: 49px 20px 20px;
+  margin-bottom: 36px;
+  object-fit: contain;
+}
+
+.header {
+  background-color: black;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+
+.header_searchIcon {
+  background-color: coral;
+  height: 30px !important;
+  width: 20px !important;
+  position: relative;
+  top: 0px;
+}
+.header_search {
+  display: flex;
+  width: 80%;
+  flex: 1;
+  height: 27;
+  border-width: 0px;
+}
+.header_nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+span {
+  color: white;
+}
+.header_Link {
+  color: cornsilk;
+  text-decoration: none;
+}
+
+.header_option {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px 10px;
+  font-style: italic;
+  text-decoration-line: none;
+}
+.header_optionlineone {
+  font-size: 10px;
+}
+.header_optionlinetwo {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.header_Basket {
+  display: flex;
+  position: relative;
+  right: 30px;
+}
+.basket_count {
+  margin: 0px 10px 20px;
+}
+.shopping_basket {
+  color: white;
+}
+@media screen and (max-width: 576px) {
+  .header_search {
+    min-width: 60px;
+    /* margin-left: 10px; */
+  }
+  .header_searchIcon {
+    /* min-width: 60px; */
+    margin-right: 10px;
+  }
+  .header_Basket > span {
+    padding-right: 20px;
+  }
+  .header {
+    width: min-content;
+    /* width: 100%; */
+  }
+  .header__logo {
+    position: relative;
+    right: 10px;
+  }
+}

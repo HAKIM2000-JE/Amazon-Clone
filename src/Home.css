@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+.home_image{
+    width: 100%;
+    mask-image: linear-gradient(to Bottom,rgb(0,0,0,1),rgb(0,0,0,0));
+    
+    z-index: -1;
+    margin-bottom: -100px;
+}
+.home{ 
+     max-width: 1500px; 
+     margin-left: 10px ; 
+     margin-right:  10px ; 
+} 
+
+.products{
+   display: inline-block;
+   justify-content: space-around;
+
+
+
+}
+.product_row{
+    display:flex;
+    
+    width: fit-content;
+    z-index: 1;
+    
+}
+@media screen and (max-width: 576px) {
+   
+    .product_row{
+      display:inline-block;
+      
+      width: fit-content;
+      z-index: 1;
+      
+  }
+}
+@media screen and (max-width: 950px) {
+   
+    .product_row{
+      display:inline-block;
+      
+      width: fit-content;
+      z-index: 1;
+      
+  }
+  .home_image{
+    margin-bottom: -30px;
+    width: 100%;
+  }
+  
+}
